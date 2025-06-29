@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWitter Home</title>
+
+    <link rel="stylesheet" href="./css/home.css" />
+    <script
+      src="https://kit.fontawesome.com/cad84b7595.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../js/home.js"></script>
+  </head>
+  <body>
+    <div id="screen">
+      <!-- all modals******************************************************* -->
+      <div id="modal_container">
+        <div id="modal">
+          <div id="top_bar">
+            <div>
+              <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter fa-xl"></i>
+            </div>
+          </div>
+
+          <div id="middle_bar">
+            <div id="top_middle">
+              <h3>Who are you</h3>
+              <p>Choose the right Verified subscription for you:</p>
+            </div>
+
+            <div id="middle_middle">
+              <div>
+                <p>MyWitter Blue</p>
+                <h4>Iam an individual</h4>
+                <p>for individuals and creators</p>
+              </div>
+              <div>
+                <p>Verified Organization</p>
+                <h4>Iam an oraganization</h4>
+                <p>
+                  For business,s government <br />
+                  agencies,and non-profits
+                </p>
+              </div>
+            </div>
+
+            <div id="main_button">
+              <button>Subscribe</button>
+            </div>
+
+            <div id="last-sec">
+              <p>
+                Learn more about <span>MyWitter Blue</span> and
+                <span>verified oraganization</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="more_dropDown">
+        <div id="more_main_dd">
+          <div
+            id="connect_section"
+            style="cursor: pointer; background-color: #1b2023"
+          >
+            <a href="./html/connect.html">
+              <div id="at_icon">
+                <i class="fa-solid fa-at fa-xl"></i>
+              </div>
+              <div id="connect_text">
+                <h3>Connect</h3>
+              </div>
+            </a>
+          </div>
+          <div
+            id="draft_section"
+            style="cursor: pointer; background-color: #1b2023"
+          >
+            <div id="draft_icon">
+              <i class="fa-solid fa-pen-ruler fa-xl"></i>
+            </div>
+            <div id="draft_text" style="background-color: #1b2023">
+              <h3>Drafts</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="more_down_section">
+          <div class="left_text">
+            <h4>Creator Studio</h4>
+          </div>
+          <div class="right_arrow_icon">
+            <i class="fa-solid fa-angle-down fa-lg"></i>
+          </div>
+        </div>
+        <div
+          class="more_down_section"
+          style="background-color: #1b2023"
+          id="prof_tools"
+        >
+          <div class="left_text" style="cursor: pointer">
+            <h4>Professional Tools</h4>
+          </div>
+          <div class="right_arrow_icon">
+            <i class="fa-solid fa-angle-down fa-lg"></i>
+          </div>
+        </div>
+        <div class="more_down_section">
+          <div class="left_text">
+            <h4>Settings and support</h4>
+          </div>
+          <div class="right_arrow_icon">
+            <i class="fa-solid fa-angle-down fa-lg"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="draft_dropDown_container">
+        <div id="draft_dropDown">
+          <div id="draft_head_container">
+            <div id="back_arrow">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div id="draft_heading">
+              <h3>Drafts</h3>
+            </div>
+          </div>
+
+          <div id="draft_nav_container">
+            <div id="draft_left_nav">
+              <span>Unsent Sweets</span>
+            </div>
+            <div id="draft_right_nav">
+              <span>Scheduled</span>
+            </div>
+          </div>
+
+          <div id="draft_body">
+            <div id="draft_img">
+              <img
+                src="https://abs.twimg.com/responsive-web/client-web/alarm-clock-800x400.v1.6c5b3fe9.png"
+                alt=""
+              />
+            </div>
+
+            <div id="draft_body_section">
+              <h3>Hold that thought</h3>
+              <p>
+                Not ready to send a Tweet just yet? Save it to <br />
+                your drafts or schedule it for later.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="professional_tools">
+        <div class="professional_tool_child" id="proffesional_dropDown">
+          <i class="fa-solid fa-rocket fa-sm"></i>
+          <h4>MyWitter for Professionals</h4>
+        </div>
+        <div class="professional_tool_child">
+          <i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
+          <h4>MyWitter Ads</h4>
+        </div>
+        <div class="professional_tool_child">
+          <a href="./html/monetization.html">
+            <i class="fa-regular fa-money-bill-1 fa-sm"></i>
+            <h4>Monetization</h4>
+          </a>
+        </div>
+      </div>
+
+      <div id="twitter_for_professionals">
+        <div id="inside_professional_modal">
+          <div id="top_profess_nav">
+            <i
+              class="fa-solid fa-xmark fa-sm"
+              id="close_proffesional_modal"
+            ></i>
+            <i class="fa-brands fa-twitter fa-xl"></i>
+          </div>
+          <div id="body_profess">
+            <div id="doggy_image">
+              <img
+                src="https://ton.twimg.com/onboarding/professional_profiles/upsell_header_wide_v2.png"
+                alt=""
+              />
+            </div>
+            <div id="doggy_details">
+              <h2>MyWitter for Professionals</h2>
+              <p>
+                Get access to the tools you need to better connect with your
+                audience, grow your brand, and increase your profits.
+              </p>
+              <p>By tapping "Agree & continue", you are agreeing to our</p>
+              <span>Professional Account policy.</span>
+            </div>
+          </div>
+          <div id="bottom_profess_btn">
+            <button>Agree & Continue</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ************************************************** -->
+      <div id="left">
+        <div id="left_container">
+          <div id="twitter_icon" style="font-weight: bold; font-size: 24px">
+            <!-- <i class="fa-brands fa-twitter fa-xl" style="color: #cdcece"></i> -->
+            MYwitter
+          </div>
+
+          <div id="navigation_container">
+            <div class="navigations">
+              <a id="single_nav_home" href="../index.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-house-chimney fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Home</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_explore" href="./html/explore.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-magnifying-glass fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Explore</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_notification" href="./html/notification.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bell fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Notifications</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_message" href="./html/message.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-envelope fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Messages</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_list" href="./html/list.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-bars-staggered fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Lists</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_bookmark" href="./html/bookmarks.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bookmark fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Bookmarks</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations" id="verified">
+              <a id="single_nav_verified">
+                <div class="nav_icon" id="verify">
+                  <i
+                    id="check"
+                    class="fa-solid fa-square-check fa-xs"
+                    style="color: #000000"
+                  ></i>
+                  <i
+                    class="fa-solid fa-certificate fa-lg"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Verified</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_profile" href="./html/profile.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-user fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Profile</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <div id="single_nav_more">
+                <div class="nav_icon" id="more">
+                  <i
+                    id="dot_icon"
+                    class="fa-solid fa-ellipsis fa-sm"
+                    style="color: #ffffff"
+                  ></i>
+                  <i
+                    class="fa-regular fa-circle fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>More</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tweet_btn">
+            <button>Sweet</button>
+          </div>
+
+          <!-- logout dropdown -->
+          <div id="dropdown_profile">
+            <div id="darkLight">Enable Light Mode</div>
+            <div>Logout</div>
+            <div>
+              <a href="./html/signUp.html" style="color: white"> Sign up </a>
+            </div>
+            <div>
+              <a href="./html/logIn.html" style="color: white"> Log in </a>
+            </div>
+          </div>
+
+          <div id="user_Profile" onclick="toggleProfile()">
+            <div id="user_details">
+              <div id="profile_icon">
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/311/574/desktop-wallpaper-alone-boy-in-rain-alone-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="profile_name">
+                <p>muser 03</p>
+                <p>@03m_user</p>
+              </div>
+            </div>
+            <div id="dots">
+              <i class="fa-solid fa-ellipsis" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- center -->
+      <div id="center">
+        <nav>
+          <h3 id="home_heading">Home</h3>
+          <div id="foryou-following">
+            <a id="foryou" href="">
+              <div><h4>For You</h4></div>
+            </a>
+            <a id="following" href="">
+              <div><h4>Following</h4></div>
+            </a>
+          </div>
+        </nav>
+
+        <main>
+          <div id="center_body">
+            <div id="what_happening">
+              <div id="center_img">
+                <!-- <i
+                  class="fa-solid fa-circle-user fa-2xl"
+                  style="color: #1d9bf0"
+                ></i> -->
+
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/311/574/desktop-wallpaper-alone-boy-in-rain-alone-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="center_text">
+                <input type="text" placeholder="what happening" />
+              </div>
+            </div>
+            <div id="all_icons_flex">
+              <div id="six_icons">
+                <i class="fa-solid fa-image fa-sm" style="color: #1d9bf0"></i>
+                <i class="fa-solid fa-box fa-sm" style="color: #1d9bf0"></i>
+                <i class="fa-solid fa-list-ul fa-sm" style="color: #1d9bf0"></i>
+                <i
+                  class="fa-regular fa-face-smile fa-sm"
+                  style="color: #1d9bf0"
+                ></i>
+                <i
+                  class="fa-solid fa-calendar-days fa-sm"
+                  style="color: #1d9bf0"
+                ></i>
+
+                <i
+                  class="fa-solid fa-location-dot fa-sm"
+                  style="color: #303030"
+                ></i>
+              </div>
+
+              <div id="blur_tweet_btn">
+                <button>Sweet</button>
+              </div>
+            </div>
+          </div>
+          <div id="show_tweets">
+            <p>Show 255 Sweets</p>
+          </div>
+
+          <!-- Home_Content_body -->
+
+          <div id="home_body_container">
+            <div class="home_content">
+              <div class="top_content">
+                <div class="top_user_name">
+                  <div class="top_icon">
+                    <img
+                      src="https://pbs.twimg.com/profile_images/1365379860911316996/xZQU42eK_400x400.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="top_user_details">
+                    <h4>Lokesh Kanagaraj</h4>
+                    <div class="center_main_verifed">
+                      <img src="../assets/verified.png" alt="" />
+                    </div>
+                    <span class="user_mention">@Dir_Lokesh · Jun 14</span>
+                  </div>
+                </div>
+
+                <div class="description">
+                  <p>
+                    Happy to release
+                    <span class="special_mention">#Nananana</span> , Vivek
+                    -Mervin’s next Independent Music Video.
+                  </p>
+                </div>
+
+                <div class="post_tags">
+                  <p>
+                    Best wishes
+                    <span class="special_mention"> @VishnuEdavan1</span> for
+                    your next song!
+                  </p>
+                  <p>https://youtu.be/MgTLoi4zE4E</p>
+                  <p>@iamviveksiva @MervinJSolomon @ImHharan @shervinvinu</p>
+                </div>
+              </div>
+              <div class="image_content">
+                <div class="main_image_post">
+                  <img
+                    src="https://pbs.twimg.com/media/FyvYfv9aUAYxLkZ?format=jpg&name=large"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="interaction_section">
+                <div class="comment">
+                  <div>
+                    <i
+                      class="fa-regular fa-comment fa-sm"
+                      style="color: #797a7c"
+                    ></i>
+                  </div>
+                  <div class="numbers">1873</div>
+                </div>
+                <div class="tweet">
+                  <div>
+                    <i
+                      class="fa-solid fa-retweet fa-sm"
+                      style="color: #747981"
+                    ></i>
+                  </div>
+                  <div class="numbers">566</div>
+                </div>
+                <div class="heart">
+                  <div>
+                    <i
+                      class="fa-regular fa-heart fa-sm"
+                      style="color: #6d737e"
+                    ></i>
+                  </div>
+                  <div class="numbers">1.5k</div>
+                </div>
+                <div class="views">
+                  <div>
+                    <i
+                      class="fa-regular fa-eye fa-sm"
+                      style="color: #676c74"
+                    ></i>
+                  </div>
+                  <div class="numbers">2987</div>
+                </div>
+                <div class="share">
+                  <i
+                    class="fa-solid fa-arrow-up-from-bracket fa-sm"
+                    style="color: #797e86"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div class="home_content">
+              <div class="top_content">
+                <div class="top_user_name">
+                  <div class="top_icon">
+                    <img
+                      src="https://pbs.twimg.com/profile_images/1365379860911316996/xZQU42eK_400x400.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="top_user_details">
+                    <h4>Lokesh Kanagaraj</h4>
+                    <div class="center_main_verifed">
+                      <img src="../assets/verified.png" alt="" />
+                    </div>
+                    <span class="user_mention">@Dir_Lokesh · Jun 02</span>
+                  </div>
+                </div>
+
+                <div class="description">
+                  <p>
+                    Wishing good luck to
+                    <span class="special_mention">@itsNarain</span> , Director
+                    Jude, Anthony Joseph and the entire cast and crew of #2018
+                    on the release. 🔥
+                  </p>
+                </div>
+              </div>
+              <div class="image_content">
+                <div class="main_image_post">
+                  <img
+                    src="https://pbs.twimg.com/media/FvXV6EZagAE3WHO?format=jpg&name=900x900"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="interaction_section">
+                <div class="comment">
+                  <div>
+                    <i
+                      class="fa-regular fa-comment fa-sm"
+                      style="color: #797a7c"
+                    ></i>
+                  </div>
+                  <div class="numbers">9.2k</div>
+                </div>
+                <div class="tweet">
+                  <div>
+                    <i
+                      class="fa-solid fa-retweet fa-sm"
+                      style="color: #747981"
+                    ></i>
+                  </div>
+                  <div class="numbers">447</div>
+                </div>
+                <div class="heart">
+                  <div>
+                    <i
+                      class="fa-regular fa-heart fa-sm"
+                      style="color: #6d737e"
+                    ></i>
+                  </div>
+                  <div class="numbers">523</div>
+                </div>
+                <div class="views">
+                  <div>
+                    <i
+                      class="fa-regular fa-eye fa-sm"
+                      style="color: #676c74"
+                    ></i>
+                  </div>
+                  <div class="numbers">4.8k</div>
+                </div>
+                <div class="share">
+                  <i
+                    class="fa-solid fa-arrow-up-from-bracket fa-sm"
+                    style="color: #797e86"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <!-- right -->
+      <div id="right">
+        <div id="right_nav">
+          <div id="search_icon">
+            <i
+              class="fa-solid fa-magnifying-glass fa-sm"
+              style="color: #8c8c8c"
+            ></i>
+          </div>
+          <div id="search_container">
+            <input type="text" placeholder="Search twitter" />
+          </div>
+        </div>
+
+        <div id="right_main">
+          <h3>Get Verified</h3>
+          <h5>Subscribe to unlock new features.</h5>
+          <button id="get_verified">Get Verified</button>
+        </div>
+
+        <div id="right_middle">
+          <h3>Whats Happening</h3>
+
+          <div class="trending_section">
+            <div class="trend_tweet">
+              <p>Trending in India</p>
+              <h5>#Virat Kohli</h5>
+              <p>2.9k sweets</p>
+            </div>
+
+            <div class="three_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #615f5f"></i>
+            </div>
+          </div>
+          <div class="trending_section">
+            <div class="trend_tweet">
+              <p>Trending in India</p>
+              <h5>#SameSexMarriage</h5>
+              <p>2k sweets</p>
+            </div>
+
+            <div class="three_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #615f5f"></i>
+            </div>
+          </div>
+          <div class="trending_section">
+            <div class="trend_tweet">
+              <p>Trending in India</p>
+              <h5>#BanAdipurushMovie</h5>
+              <p>2489 sweets</p>
+            </div>
+
+            <div class="three_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #615f5f"></i>
+            </div>
+          </div>
+          <div class="trending_section">
+            <div class="trend_tweet">
+              <p>Only in MyWitter</p>
+              <h5>#BawaalGoesGlobal</h5>
+              <p>420 sweets</p>
+            </div>
+
+            <div class="three_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #615f5f"></i>
+            </div>
+          </div>
+          <div class="trending_section">
+            <div class="trend_tweet">
+              <p>Trending in India</p>
+              <h5>#Karnataka</h5>
+              <p>3500 sweets</p>
+            </div>
+
+            <div class="three_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #615f5f"></i>
+            </div>
+          </div>
+          <div class="trending_section">
+            <div class="trend_tweet">
+              <p>Trending in India</p>
+              <h5>#DelhiUniversity</h5>
+              <p>42k sweets</p>
+            </div>
+
+            <div class="three_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #615f5f"></i>
+            </div>
+          </div>
+        </div>
+
+        <div id="right_last">
+          <h3>Who to Follow</h3>
+
+          <div class="right_last_section">
+            <div class="prof_section">
+              <div class="right_last_profile">
+                <img
+                  src="https://static.toiimg.com/photo/msid-73319072/73319072.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="right_last_profile_detail">
+                <div class="main_name_with_verified">
+                  <h4>Silambarasan TR</h4>
+                  <div class="verified_img">
+                    <img src="../assets/verified.png" alt="" />
+                  </div>
+                </div>
+                <p>@silambarasanTR_</p>
+              </div>
+            </div>
+            <div class="follow_btn">
+              <button>Follow</button>
+            </div>
+          </div>
+          <div class="right_last_section">
+            <div class="prof_section">
+              <div class="right_last_profile">
+                <img
+                  src="https://glamsham.com/wp-content/uploads/2022/06/Arjun-Das-_-pic-courtesy-instagram.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="right_last_profile_detail">
+                <div class="main_name_with_verified">
+                  <h4>Arjun Das</h4>
+                  <div class="verified_img">
+                    <img src="../assets/verified.png" alt="" />
+                  </div>
+                </div>
+                <p>@iam_arjundas</p>
+              </div>
+            </div>
+            <div class="follow_btn">
+              <button>Follow</button>
+            </div>
+          </div>
+          <div class="right_last_section">
+            <div class="prof_section">
+              <div class="right_last_profile">
+                <img
+                  src="https://m.media-amazon.com/images/I/416UuI2RnRS._SL500_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="right_last_profile_detail">
+                <div class="main_name_with_verified">
+                  <h4>Kamal Haasan</h4>
+                  <div class="verified_img">
+                    <img src="../assets/verified.png" alt="" />
+                  </div>
+                </div>
+                <p>@ikamalhaasan</p>
+              </div>
+            </div>
+            <div class="follow_btn">
+              <button>Follow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script>
+      // let user_Profile = document.getElementById("user_Profile");
+      // let dropdown_profile = document.getElementById("dropdown_profile");
+
+      // user_Profile.addEventListener("click", function () {
+      //   if (dropdown_profile.style.display == "none") {
+      //     dropdown_profile.style.display = "block";
+      //   } else {
+      //     dropdown_profile.style.display = "none";
+      //   }
+      // });
+
+      // let modal_container = document.getElementById("modal_container");
+
+      // let close = document.getElementById("close");
+
+      // let verified = document.getElementById("verified");
+
+      // verified.addEventListener("click", function () {
+      //   console.log("clicked");
+      //   // alert("clicked");
+      //   modal_container.style.display = "block";
+      // });
+
+      // close.addEventListener("click", function () {
+      //   modal_container.style.display = "none";
+      // });
+
+      // let more_dropDown = document.getElementById("more_dropDown");
+      // let more = document.getElementById("more");
+      // let back_arrow = document.getElementById("back_arrow");
+
+      // more.addEventListener("click", function () {
+      //   if (more_dropDown.style.display === "none") {
+      //     more_dropDown.style.display = "block";
+      //   } else {
+      //     more_dropDown.style.display = "none";
+      //   }
+      // });
+
+      // let draft_section = document.getElementById("draft_section");
+      // let draft_dropDown_container = document.getElementById(
+      //   "draft_dropDown_container"
+      // );
+
+      // draft_section.addEventListener("click", function () {
+      //   draft_dropDown_container.style.display = "block";
+      //   more_dropDown.style.display = "none";
+      // });
+
+      // back_arrow.addEventListener("click", function () {
+      //   draft_dropDown_container.style.display = "none";
+      // });
+    </script> -->
+  </body>
+</html>

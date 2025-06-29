@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+a {
+  color: black;
+}
+
+#screen {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 220, 220);
+}
+
+#signUp_container {
+  width: 35%;
+  height: 85vh;
+  /* border: 1px solid red; */
+  border-radius: 25px;
+  background-color: white;
+  position: relative;
+}
+#x {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+}
+
+#inner_signUp {
+  width: 60%;
+  /* border: 1px solid red; */
+  margin: auto;
+  height: 100%;
+}
+
+#main_signUp {
+  width: 100%;
+  height: 70%;
+  /* border: 1px solid blue; */
+}
+
+#icon {
+  text-align: center;
+  padding-bottom: 8%;
+  padding-top: 3%;
+}
+
+#sigUp_heading {
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.goog_app {
+  width: 90%;
+  margin: auto;
+  border: 1px solid rgb(211, 209, 209);
+  text-align: center;
+  margin-bottom: 5%;
+  padding: 3%;
+  border-radius: 50px;
+  font-size: 0.9em;
+}
+
+#google_container {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* border: 1px solid blue; */
+  padding-left: 4%;
+}
+#google_container > p {
+  width: 60%;
+}
+#google_container > p > a {
+  padding-left: 1%;
+  /* border: 1px solid green; */
+}
+
+#google_image {
+  /* border: 1px solid red; */
+  width: 7%;
+  height: 7%;
+}
+#google_image > img {
+  width: 100%;
+  height: 100%;
+}
+
+#apple > a {
+  padding-left: 4%;
+}
+
+#or {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#create_acc_btn {
+  width: 90%;
+  height: 8%;
+  /* margin-top: 4%; */
+  margin: auto;
+}
+#create_acc_btn > a > button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+#terms {
+  margin-top: 4%;
+  font-size: 0.65em;
+  text-align: left;
+  padding-left: 7%;
+}
+
+#terms > p > span {
+  color: blue;
+}
+
+#already_acc {
+  padding-top: 17%;
+  font-size: 0.9em;
+  padding-left: 7%;
+}
+#already_acc > p > a {
+  color: blue;
+}

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore MyWitter</title>
+
+    <link rel="stylesheet" href="../css/explore.css" />
+    <script
+      src="https://kit.fontawesome.com/cad84b7595.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="left">
+        <div id="left_container">
+          <div id="twitter_icon" style="font-weight: bold; font-size: 24px">
+            <!-- <i class="fa-brands fa-twitter fa-xl" style="color: #cdcece"></i> -->
+            MYwitter
+          </div>
+
+          <div id="navigation_container">
+            <div class="navigations">
+              <a id="single_nav_home" href="../index.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-house-chimney fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Home</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_explore" href="./explore.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-magnifying-glass fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Explore</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_notification" href="./notification.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bell fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Notifications</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_message" href="./message.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-envelope fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Messages</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_list" href="./list.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-bars-staggered fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Lists</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_bookmark" href="">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bookmark fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Bookmarks</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_verified">
+                <div class="nav_icon" id="verify">
+                  <i
+                    id="check"
+                    class="fa-solid fa-square-check fa-xs"
+                    style="color: #000000"
+                  ></i>
+                  <i
+                    class="fa-solid fa-certificate fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Verified</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_profile" href="../html/profile.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-user fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Profile</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <div id="single_nav_more">
+                <div class="nav_icon" id="more">
+                  <i
+                    id="dot_icon"
+                    class="fa-solid fa-ellipsis fa-sm"
+                    style="color: #ffffff"
+                  ></i>
+                  <i
+                    class="fa-regular fa-circle fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>More</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tweet_btn">
+            <button>Tweet</button>
+          </div>
+          <div id="user_Profile">
+            <div id="user_details">
+              <div id="profile_icon">
+                <!-- <i
+                  class="fa-regular fa-circle-user fa-2xl"
+                  style="color: #ffffff"
+                ></i> -->
+
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/311/574/desktop-wallpaper-alone-boy-in-rain-alone-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="profile_name">
+                <p>muser 03</p>
+                <p>@03m_user</p>
+              </div>
+            </div>
+            <div id="dots">
+              <i class="fa-solid fa-ellipsis" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="center_container">
+        <div id="top_container">
+          <div id="top_center">
+            <div id="top_input">
+              <input type="text" placeholder="Search MyWitter" />
+            </div>
+            <div id="setting">
+              <i class="fa-solid fa-gear fa-lg" style="color: #ffffff"></i>
+            </div>
+          </div>
+
+          <div id="top_center_nav">
+            <div>For You</div>
+            <div>Trending</div>
+            <div>news</div>
+            <div>Sports</div>
+            <div>Entertainment</div>
+          </div>
+        </div>
+
+        <div id="center_body">
+          <div class="trending_tweet_section">
+            <div class="trend_details">
+              <p>Trending in India</p>
+              <h4>Burnol</h4>
+              <p>3,625 tweets</p>
+            </div>
+            <div class="trend_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #535252"></i>
+            </div>
+          </div>
+          <div class="trending_tweet_section">
+            <div class="trend_details">
+              <p>Sports · Trending</p>
+              <h4>#INDvsPAK</h4>
+              <p>Trending with <span> #SAFFChampionship2023</span></p>
+            </div>
+            <div class="trend_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #535252"></i>
+            </div>
+          </div>
+          <div class="trending_tweet_section">
+            <div class="trend_details">
+              <p>Trending in India</p>
+              <h4>#YogaforOneWorldOneFamily</h4>
+              <p>18.9K Tweets</p>
+            </div>
+            <div class="trend_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #535252"></i>
+            </div>
+          </div>
+          <div class="trending_tweet_section">
+            <div class="trend_details">
+              <p>Trending in India</p>
+              <h4>#NarendraModi</h4>
+              <p>18.4K Tweets</p>
+            </div>
+            <div class="trend_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #535252"></i>
+            </div>
+          </div>
+          <div class="trending_tweet_section">
+            <div class="trend_details">
+              <p>Trending in India</p>
+              <h4>#AUSvsENG</h4>
+              <p>1,075 Tweets</p>
+            </div>
+            <div class="trend_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #535252"></i>
+            </div>
+          </div>
+          <div class="trending_tweet_section">
+            <div class="trend_details">
+              <p>Entertainment · Trending</p>
+              <h4>#Jailer</h4>
+              <p>Trending with <span> #HBDNelsonDilipkumar</span></p>
+            </div>
+            <div class="trend_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #535252"></i>
+            </div>
+          </div>
+          <div class="trending_tweet_section">
+            <div class="trend_details">
+              <p>Trending in India</p>
+              <h4>The Bhagavad Gita</h4>
+              <p>1,581 Tweets</p>
+            </div>
+            <div class="trend_dots">
+              <i class="fa-solid fa-ellipsis fa-lg" style="color: #535252"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="center_posts">
+          <div class="post_top">
+            <div class="post_details">
+              <div class="post_dp">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="post-name">
+                <h4>US Department of the Interior</h4>
+                <p>Bear Belly Flop</p>
+              </div>
+              <div class="post_verified">
+                <img src="../assets/verified.png" alt="" />
+              </div>
+              <div class="at_name">
+                <p>@Interior . 10h</p>
+              </div>
+            </div>
+            <div class="post_dots">
+              <i class="fa-solid fa-ellipsis" style="color: #4e4d4d"></i>
+            </div>
+          </div>
+          <div class="post-description">
+            <p>
+              BearCam is back for the season. Watch Alaska brown bears fish for
+              salmon live at <span> @KatmaiNPS</span> . Every year, they
+              congregate to feast on sockeye salmon in the Brooks River. Watch
+              now: <span> https://explore.org/livecams/brown-bears</span>
+            </p>
+
+            <p>Video by <span> @exploreorg</span></p>
+          </div>
+          <div class="main_post">
+            <video src="../assets/bear.mp4" autoplay controls></video>
+          </div>
+          <div class="post_interaction">
+            <div class="interaction_section">
+              <div class="comment">
+                <div>
+                  <i
+                    class="fa-regular fa-comment fa-sm"
+                    style="color: #797a7c"
+                  ></i>
+                </div>
+                <div class="numbers">1873</div>
+              </div>
+              <div class="tweet">
+                <div>
+                  <i
+                    class="fa-solid fa-retweet fa-sm"
+                    style="color: #747981"
+                  ></i>
+                </div>
+                <div class="numbers">566</div>
+              </div>
+              <div class="heart">
+                <div>
+                  <i
+                    class="fa-regular fa-heart fa-sm"
+                    style="color: #6d737e"
+                  ></i>
+                </div>
+                <div class="numbers">1.5k</div>
+              </div>
+              <div class="views">
+                <div>
+                  <i class="fa-regular fa-eye fa-sm" style="color: #676c74"></i>
+                </div>
+                <div class="numbers">2987</div>
+              </div>
+              <div class="share">
+                <i
+                  class="fa-solid fa-arrow-up-from-bracket fa-sm"
+                  style="color: #797e86"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="center_posts">
+          <div class="post_top">
+            <div class="post_details">
+              <div class="post_dp">
+                <img
+                  src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2023_02/story_20745/assets/4.png?time=1675425156"
+                  alt=""
+                />
+              </div>
+              <div class="post-name">
+                <h4>Leo Fans Club</h4>
+                <p>Leeeeooooo</p>
+              </div>
+              <div class="post_verified">
+                <img src="../assets/verified.png" alt="" />
+              </div>
+              <div class="at_name">
+                <p>@leoOfflClub . 3m</p>
+              </div>
+            </div>
+            <div class="post_dots">
+              <i class="fa-solid fa-ellipsis" style="color: #4e4d4d"></i>
+            </div>
+          </div>
+          <div class="post-description">
+            <p>
+              Leo the movie from lokesh kanagaraj Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Sit, alias sapiente? Laboriosam,
+              quia! A, rem!
+              <span>#thalapathy</span>
+              <span> #naReady #alterEgo</span>
+            </p>
+
+            <p><span> #Bloodysweet</span></p>
+
+            <p>Video by <span> @manoj</span></p>
+          </div>
+          <div class="main_post">
+            <video src="../assets/leo.mp4" autoplay controls></video>
+          </div>
+          <div class="post_interaction">
+            <div class="interaction_section">
+              <div class="comment">
+                <div>
+                  <i
+                    class="fa-regular fa-comment fa-sm"
+                    style="color: #797a7c"
+                  ></i>
+                </div>
+                <div class="numbers">4.55k</div>
+              </div>
+              <div class="tweet">
+                <div>
+                  <i
+                    class="fa-solid fa-retweet fa-sm"
+                    style="color: #747981"
+                  ></i>
+                </div>
+                <div class="numbers">6000</div>
+              </div>
+              <div class="heart">
+                <div>
+                  <i
+                    class="fa-regular fa-heart fa-sm"
+                    style="color: #6d737e"
+                  ></i>
+                </div>
+                <div class="numbers">9.5k</div>
+              </div>
+              <div class="views">
+                <div>
+                  <i class="fa-regular fa-eye fa-sm" style="color: #676c74"></i>
+                </div>
+                <div class="numbers">950k</div>
+              </div>
+              <div class="share">
+                <i
+                  class="fa-solid fa-arrow-up-from-bracket fa-sm"
+                  style="color: #797e86"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="right_main">
+        <div id="right_last">
+          <h3>Who to Follow</h3>
+
+          <div class="right_last_section">
+            <div class="prof_section">
+              <div class="right_last_profile">
+                <img
+                  src="https://static.toiimg.com/photo/msid-73319072/73319072.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="right_last_profile_detail">
+                <div class="main_name_with_verified">
+                  <h4>Silambarasan TR</h4>
+                  <div class="verified_img">
+                    <img src="../assets/verified.png" alt="" />
+                  </div>
+                </div>
+                <p>@silambarasanTR_</p>
+              </div>
+            </div>
+            <div class="follow_btn">
+              <button>Follow</button>
+            </div>
+          </div>
+          <div class="right_last_section">
+            <div class="prof_section">
+              <div class="right_last_profile">
+                <img
+                  src="https://glamsham.com/wp-content/uploads/2022/06/Arjun-Das-_-pic-courtesy-instagram.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="right_last_profile_detail">
+                <div class="main_name_with_verified">
+                  <h4>Arjun Das</h4>
+                  <div class="verified_img">
+                    <img src="../assets/verified.png" alt="" />
+                  </div>
+                </div>
+                <p>@iam_arjundas</p>
+              </div>
+            </div>
+            <div class="follow_btn">
+              <button>Follow</button>
+            </div>
+          </div>
+          <div class="right_last_section">
+            <div class="prof_section">
+              <div class="right_last_profile">
+                <img
+                  src="https://m.media-amazon.com/images/I/416UuI2RnRS._SL500_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="right_last_profile_detail">
+                <div class="main_name_with_verified">
+                  <h4>Kamal Haasan</h4>
+                  <div class="verified_img">
+                    <img src="../assets/verified.png" alt="" />
+                  </div>
+                </div>
+                <p>@ikamalhaasan</p>
+              </div>
+            </div>
+            <div class="follow_btn">
+              <button>Follow</button>
+            </div>
+          </div>
+          <p id="showMore">Show More</p>
+        </div>
+
+        <p id="terms">
+          Terms of Service Privacy Policy Cookie Policy <br />
+          Accessibility Ads info More © 2023 X Corp.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

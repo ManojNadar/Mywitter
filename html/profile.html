@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile MyWitter</title>
+
+    <link rel="stylesheet" href="../css/profile.css" />
+
+    <script
+      src="https://kit.fontawesome.com/cad84b7595.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="left">
+        <div id="left_container">
+          <div id="twitter_icon" style="font-weight: bold; font-size: 24px">
+            <!-- <i class="fa-brands fa-twitter fa-xl" style="color: #cdcece"></i> -->
+            MYwitter
+          </div>
+
+          <div id="navigation_container">
+            <div class="navigations">
+              <a id="single_nav_home" href="../index.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-house-chimney fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Home</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_explore" href="./explore.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-magnifying-glass fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Explore</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_notification" href="./notification.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bell fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Notifications</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_message" href="./message.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-envelope fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Messages</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_list" href="./list.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-bars-staggered fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Lists</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_bookmark" href="./bookmarks.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bookmark fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Bookmarks</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_verified">
+                <div class="nav_icon" id="verify">
+                  <i
+                    id="check"
+                    class="fa-solid fa-square-check fa-xs"
+                    style="color: #000000"
+                  ></i>
+                  <i
+                    class="fa-solid fa-certificate fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Verified</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_profile" href="../html/profile.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-user fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Profile</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <div id="single_nav_more">
+                <div class="nav_icon" id="more">
+                  <i
+                    id="dot_icon"
+                    class="fa-solid fa-ellipsis fa-sm"
+                    style="color: #ffffff"
+                  ></i>
+                  <i
+                    class="fa-regular fa-circle fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>More</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tweet_btn">
+            <button>Tweet</button>
+          </div>
+          <div id="user_Profile">
+            <div id="user_details">
+              <div id="profile_icon">
+                <!-- <i
+                      class="fa-regular fa-circle-user fa-2xl"
+                      style="color: #ffffff"
+                    ></i> -->
+
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/311/574/desktop-wallpaper-alone-boy-in-rain-alone-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="profile_name">
+                <p>muser 03</p>
+                <p>@03m_user</p>
+              </div>
+            </div>
+            <div id="dots">
+              <i class="fa-solid fa-ellipsis" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="right">
+        <div id="center">
+          <nav>
+            <div id="back_arrow">
+              <a href="../index.html">
+                <i
+                  class="fa-solid fa-arrow-left-long fa-lg"
+                  style="color: #ffffff"
+                ></i>
+              </a>
+            </div>
+            <div id="username">
+              <h4>muser_03</h4>
+              <p>0 Tweets</p>
+            </div>
+          </nav>
+
+          <main>
+            <div id="profile_picture_section">
+              <div id="cover_pic">
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/404/289/desktop-wallpaper-awesome-twitter-headers-twitter-nature.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="dp_section">
+                <div id="dp_pic">
+                  <img
+                    src="https://e1.pxfuel.com/desktop-wallpaper/311/574/desktop-wallpaper-alone-boy-in-rain-alone-thumbnail.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div id="edit">
+                  <button>Edit Profile</button>
+                </div>
+              </div>
+            </div>
+
+            <div id="profile_details">
+              <div>
+                <h3>muser 03</h3>
+                <p>@03m_user</p>
+              </div>
+              <div>
+                <h5>Vazha en Vazhavai vazhave ❤️</h5>
+                <p>Joined June 2023</p>
+                <div id="followers">
+                  <span> 3 <a href="">Followers</a></span>
+                  <span> 0 <a href="">Following</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div id="top_body">
+              <div id="body_nav">
+                <a href="">Tweets</a>
+                <a href="">Replies</a>
+                <a href="">Media</a>
+                <a href="">Likes</a>
+              </div>
+
+              <h3 id="middle-heading">Let’s get you set up</h3>
+              <div id="middle_section">
+                <div id="first_block">
+                  <i id="add_user" class="fa-solid fa-user-plus fa-2xl"></i>
+                  <div></div>
+                  <p>Follow 5 Accounts</p>
+                </div>
+                <div id="second_block">
+                  <i id="only_user" class="fa-solid fa-user fa-2xl"></i>
+                  <div></div>
+                  <p>Complete your profile</p>
+                </div>
+                <div id="third_block">
+                  <i id="topics" class="fa-regular fa-comment-dots fa-2xl"></i>
+                  <div></div>
+                  <p>Follow 3 Topics</p>
+                </div>
+                <div id="fourth_block">
+                  <i id="bell" class="fa-solid fa-bell fa-2xl"></i>
+                  <div></div>
+                  <p>Turn Notifications</p>
+                </div>
+                <!-- <div id="fifth_block">
+                  <i
+                    id="arrow"
+                    class="fa-solid fa-circle-arrow-right fa-2xl"
+                  ></i>
+
+                  <div></div>
+                  <p id="learnMore">Learn More</p>
+                </div> -->
+              </div>
+
+              <h3 id="last_heading">Who to Follow</h3>
+              <div class="last_section">
+                <div class="follow_detail_section">
+                  <div class="follow-user-image">
+                    <img
+                      src="https://images.indianexpress.com/2020/09/suriya1200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="follow-user-details">
+                    <div class="name_verified">
+                      <h4>Surya Sivakumar</h4>
+                      <div class="verified_logo_user">
+                        <img src="../assets/verified.png" alt="" />
+                      </div>
+                    </div>
+                    <p>@Suriya_offl</p>
+                    <p>Actor/Producer</p>
+                  </div>
+                </div>
+                <div class="follow-user-btn">
+                  <button>Follow</button>
+                </div>
+              </div>
+              <div class="last_section">
+                <div class="follow_detail_section">
+                  <div class="follow-user-image">
+                    <img
+                      src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/Karthi_1659439226.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="follow-user-details">
+                    <div class="name_verified">
+                      <h4>Karthi</h4>
+                      <div class="verified_logo_user">
+                        <img src="../assets/verified.png" alt="" />
+                      </div>
+                    </div>
+                    <p>@Karthi_Offl</p>
+                    <p>Actor | @UzhavanFDN</p>
+                  </div>
+                </div>
+                <div class="follow-user-btn">
+                  <button>Follow</button>
+                </div>
+              </div>
+              <div class="last_section">
+                <div class="follow_detail_section">
+                  <div class="follow-user-image">
+                    <img
+                      src="https://storage.googleapis.com/minnambalam_bucket/minnambalam.com/wp-content/uploads/ab6761610000e5eb7249dd34afa1c09e205260f4-1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="follow-user-details">
+                    <div class="name_verified">
+                      <h4>Raja yuvan</h4>
+                      <div class="verified_logo_user">
+                        <img src="../assets/verified.png" alt="" />
+                      </div>
+                    </div>
+                    <p>@thisisysr</p>
+                    <p>Well... you know me!</p>
+                  </div>
+                </div>
+                <div class="follow-user-btn">
+                  <button>Follow</button>
+                </div>
+              </div>
+              <div class="last_section">
+                <div class="follow_detail_section">
+                  <div class="follow-user-image">
+                    <img
+                      src="https://yt3.googleusercontent.com/XKxSH2jRbMqnTQ6HZVEjU42y_Q-M8QqYzy-7rXTofVjo8DLGUiSqzukf_gu3ojB5QGviRGUAwA=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                  </div>
+                  <div class="follow-user-details">
+                    <div class="name_verified">
+                      <h4>Nazriya Nazim Fahadh</h4>
+                      <div class="verified_logo_user">
+                        <img src="../assets/verified.png" alt="" />
+                      </div>
+                    </div>
+                    <p>@Nazriya4U_</p>
+                    <p>Actress</p>
+                  </div>
+                </div>
+                <div class="follow-user-btn">
+                  <button>Follow</button>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+        <div id="right_last">
+          <div id="search_container">
+            <div id="search_icon">
+              <i
+                class="fa-solid fa-magnifying-glass fa-sm"
+                style="color: #8c8c8c"
+              ></i>
+            </div>
+            <input type="text" placeholder="Search MyWitter" />
+          </div>
+
+          <div id="you_might_like">
+            <h3>You Migth Like</h3>
+            <div class="right_last_section">
+              <div class="prof_section">
+                <div class="right_last_profile">
+                  <img
+                    src="https://static.toiimg.com/photo/msid-73319072/73319072.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="right_last_profile_detail">
+                  <div class="main_name_with_verified">
+                    <h4>Silambarasan TR</h4>
+                    <div class="verified_img">
+                      <img src="../assets/verified.png" alt="" />
+                    </div>
+                  </div>
+                  <p>@silambarasanTR_</p>
+                </div>
+              </div>
+              <div class="follow_btn">
+                <button>Follow</button>
+              </div>
+            </div>
+            <div class="right_last_section">
+              <div class="prof_section">
+                <div class="right_last_profile">
+                  <img
+                    src="https://qph.cf2.quoracdn.net/main-qimg-d2b4eda1b6c0b9ed10fd3a5818da1e16-lq"
+                    alt=""
+                  />
+                </div>
+                <div class="right_last_profile_detail">
+                  <div class="main_name_with_verified">
+                    <h4>Yogi Babu</h4>
+                    <div class="verified_img">
+                      <img src="../assets/verified.png" alt="" />
+                    </div>
+                  </div>
+                  <p>@iYogiBabu</p>
+                </div>
+              </div>
+              <div class="follow_btn">
+                <button>Follow</button>
+              </div>
+            </div>
+            <div class="right_last_section">
+              <div class="prof_section">
+                <div class="right_last_profile">
+                  <img
+                    src="https://www.sunpictures.in/wp-content/themes/SunPicturesTwentyOne/assets/img/logo.png"
+                    alt=""
+                  />
+                </div>
+                <div class="right_last_profile_detail">
+                  <div class="main_name_with_verified">
+                    <h4>Sun Pictures</h4>
+                    <div class="verified_img">
+                      <img src="../assets/verified.png" alt="" />
+                    </div>
+                  </div>
+                  <p>@sunpictures</p>
+                </div>
+              </div>
+              <div class="follow_btn">
+                <button>Follow</button>
+              </div>
+            </div>
+            <div class="right_last_section">
+              <div class="prof_section">
+                <div class="right_last_profile">
+                  <img
+                    src="https://w0.peakpx.com/wallpaper/420/884/HD-wallpaper-vijay-sethupathi-actor-kollywood-master-syeraa-tamil-telugu-tollywood.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="right_last_profile_detail">
+                  <div class="main_name_with_verified">
+                    <h4>VijaySethupathi</h4>
+                    <div class="verified_img">
+                      <img src="../assets/verified.png" alt="" />
+                    </div>
+                  </div>
+                  <p>@VijaySethuOffl</p>
+                </div>
+              </div>
+              <div class="follow_btn">
+                <button>Follow</button>
+              </div>
+            </div>
+            <div class="right_last_section">
+              <div class="prof_section">
+                <div class="right_last_profile">
+                  <img
+                    src="https://pbs.twimg.com/profile_images/1560652236770131968/0PcHHngJ_400x400.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="right_last_profile_detail">
+                  <div class="main_name_with_verified">
+                    <h4>Virender Sehwag</h4>
+                    <div class="verified_img">
+                      <img src="../assets/verified.png" alt="" />
+                    </div>
+                  </div>
+                  <p>@virendersehwag</p>
+                </div>
+              </div>
+              <div class="follow_btn">
+                <button>Follow</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="trend_section">
+            <h3>What's Happening</h3>
+            <div class="trending_section">
+              <div class="trend_tweet">
+                <p>Trending in India</p>
+                <h5>#Virat Kohli</h5>
+                <p>2.9k tweets</p>
+              </div>
+
+              <div class="three_dots">
+                <i
+                  class="fa-solid fa-ellipsis fa-lg"
+                  style="color: #615f5f"
+                ></i>
+              </div>
+            </div>
+            <div class="trending_section">
+              <div class="trend_tweet">
+                <p>Trending in India</p>
+                <h5>#SameSexMarriage</h5>
+                <p>2k tweets</p>
+              </div>
+
+              <div class="three_dots">
+                <i
+                  class="fa-solid fa-ellipsis fa-lg"
+                  style="color: #615f5f"
+                ></i>
+              </div>
+            </div>
+            <div class="trending_section">
+              <div class="trend_tweet">
+                <p>Trending in India</p>
+                <h5>#BanAdipurushMovie</h5>
+                <p>2489 tweets</p>
+              </div>
+
+              <div class="three_dots">
+                <i
+                  class="fa-solid fa-ellipsis fa-lg"
+                  style="color: #615f5f"
+                ></i>
+              </div>
+            </div>
+            <div class="trending_section">
+              <div class="trend_tweet">
+                <p>Only in MyWitter</p>
+                <h5>#BawaalGoesGlobal</h5>
+                <p>420 tweets</p>
+              </div>
+
+              <div class="three_dots">
+                <i
+                  class="fa-solid fa-ellipsis fa-lg"
+                  style="color: #615f5f"
+                ></i>
+              </div>
+            </div>
+            <div class="trending_section">
+              <div class="trend_tweet">
+                <p>Trending in India</p>
+                <h5>#Karnataka</h5>
+                <p>3500 tweets</p>
+              </div>
+
+              <div class="three_dots">
+                <i
+                  class="fa-solid fa-ellipsis fa-lg"
+                  style="color: #615f5f"
+                ></i>
+              </div>
+            </div>
+            <div class="trending_section">
+              <div class="trend_tweet">
+                <p>Trending in India</p>
+                <h5>#DelhiUniversity</h5>
+                <p>42k tweets</p>
+              </div>
+
+              <div class="three_dots">
+                <i
+                  class="fa-solid fa-ellipsis fa-lg"
+                  style="color: #615f5f"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

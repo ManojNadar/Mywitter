@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+a {
+  color: black;
+}
+
+#screen {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 1%, 86%);
+}
+
+#signUp_container {
+  width: 35%;
+  height: 85vh;
+  /* border: 1px solid red; */
+  border-radius: 25px;
+  background-color: white;
+  position: relative;
+}
+#x {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+}
+
+#inner_signUp {
+  width: 60%;
+  /* border: 1px solid red; */
+  margin: auto;
+  height: 100%;
+}
+
+#main_signUp {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid blue; */
+}
+
+#icon {
+  text-align: center;
+  padding-bottom: 8%;
+  padding-top: 3%;
+}
+
+#sigUp_heading {
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.goog_app {
+  width: 90%;
+  margin: auto;
+  border: 1px solid rgb(211, 209, 209);
+  text-align: center;
+  margin-bottom: 5%;
+  padding: 3%;
+  border-radius: 50px;
+  font-size: 0.9em;
+}
+
+#google_container {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* border: 1px solid blue; */
+  padding-left: 4%;
+}
+#google_container > p {
+  width: 60%;
+}
+#google_container > p > a {
+  padding-left: 1%;
+  /* border: 1px solid green; */
+}
+
+#google_image {
+  /* border: 1px solid red; */
+  width: 7%;
+  height: 7%;
+}
+#google_image > img {
+  width: 100%;
+  height: 100%;
+}
+
+#apple > a {
+  padding-left: 4%;
+}
+
+#or {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+form {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.input_container {
+  width: 90%;
+  height: 8%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.input_container > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  /* border: 1px solid rgb(200, 199, 199); */
+  border-bottom: 1px solid rgb(185, 184, 184);
+  border-radius: 5px;
+  padding: 3%;
+  margin: 3% 0;
+  outline: none;
+}
+
+.input_container > input:focus {
+  outline: 0.5px solid rgb(210, 208, 208);
+}
+
+#submit {
+  background-color: black;
+  color: white;
+}
+
+#create_acc_btn {
+  width: 90%;
+  height: 8%;
+  margin: auto;
+}
+#create_acc_btn > button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+#forgot_btn {
+  width: 90%;
+  height: 8%;
+  margin: auto;
+  margin-top: 4%;
+  /* border: 1px solid blue; */
+}
+#forgot_btn > button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+#already_acc {
+  padding-top: 4%;
+  font-size: 0.9em;
+  padding-left: 7%;
+}
+#already_acc > p > a {
+  color: blue;
+}

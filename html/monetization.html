@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monetization MyWitter</title>
+
+    <link rel="stylesheet" href="../css/monetization.css" />
+    <script
+      src="https://kit.fontawesome.com/cad84b7595.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="left">
+        <div id="left_container">
+          <div id="twitter_icon" style="font-weight: bold; font-size: 24px">
+            <!-- <i class="fa-brands fa-twitter fa-xl" style="color: #cdcece"></i> -->
+            MYwitter
+          </div>
+
+          <div id="navigation_container">
+            <div class="navigations">
+              <a id="single_nav_home" href="../index.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-house-chimney fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Home</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_explore" href="./explore.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-magnifying-glass fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Explore</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_notification" href="./notification.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bell fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Notifications</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_message" href="./message.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-envelope fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Messages</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_list" href="./list.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-bars-staggered fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Lists</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_bookmark" href="./bookmarks.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bookmark fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Bookmarks</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_verified">
+                <div class="nav_icon" id="verify">
+                  <i
+                    id="check"
+                    class="fa-solid fa-square-check fa-xs"
+                    style="color: #000000"
+                  ></i>
+                  <i
+                    class="fa-solid fa-certificate fa-lg"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Verified</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_profile" href="../html/profile.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-user fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Profile</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <div id="single_nav_more">
+                <div class="nav_icon" id="more">
+                  <i
+                    id="dot_icon"
+                    class="fa-solid fa-ellipsis fa-sm"
+                    style="color: #ffffff"
+                  ></i>
+                  <i
+                    class="fa-regular fa-circle fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>More</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tweet_btn">
+            <button>Tweet</button>
+          </div>
+          <div id="dropdown_profile">
+            <div>Add an Existing Account</div>
+            <div>Logout</div>
+          </div>
+          <div id="user_Profile" onclick="toggleProfile()">
+            <div id="user_details">
+              <div id="profile_icon">
+                <!-- <i
+                        class="fa-regular fa-circle-user fa-2xl"
+                        style="color: #ffffff"
+                      ></i> -->
+
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/311/574/desktop-wallpaper-alone-boy-in-rain-alone-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="profile_name">
+                <p>muser 03</p>
+                <p>@03m_user</p>
+              </div>
+            </div>
+            <div id="dots">
+              <i class="fa-solid fa-ellipsis" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="right-section">
+        <div id="center_section">
+          <div id="heading_setting">
+            <h4>Settings</h4>
+          </div>
+
+          <div id="input_setting_container">
+            <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+            <input type="text" placeholder="Search Settings" />
+          </div>
+
+          <div class="main_settings_body">
+            <div class="setting_left_text">Your Account</div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+          <div class="main_settings_body" id="monetization_section">
+            <div class="setting_left_text">Monetization</div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+          <div class="main_settings_body">
+            <div class="setting_left_text">MyWitter Blue</div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+          <div class="main_settings_body">
+            <div class="setting_left_text">Security and account access</div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+          <div class="main_settings_body">
+            <div class="setting_left_text">Privacy and Safety</div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+          <div class="main_settings_body">
+            <div class="setting_left_text">Notifications</div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+          <div class="main_settings_body">
+            <div class="setting_left_text">
+              Accessibility, display, and languages
+            </div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+          <div class="main_settings_body">
+            <div class="setting_left_text">Additional Resources</div>
+            <div class="setting_right_icon">
+              <i
+                class="fa-solid fa-angle-right fa-lg"
+                style="color: #787878"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div id="right_main_last">
+          <div id="right_monetization">
+            <div id="top_right_monetization">
+              <h3>Monetization</h3>
+              <i class="fa-solid fa-circle-exclamation fa-lg"></i>
+            </div>
+
+            <div id="main_right_monetization">
+              <div id="left_main_mont_container">
+                <div>
+                  <i
+                    class="fa-solid fa-user-plus fa-xs"
+                    style="color: #8000ff"
+                  ></i>
+                  <h6>Subscription</h6>
+                </div>
+                <h4>Bonus content for your most engaged followers</h4>
+              </div>
+              <div id="right_main_mont_container">
+                <div id="twing">
+                  <img
+                    src="https://abs.twimg.com/responsive-web/client-web/Crown.65bc0d5a.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

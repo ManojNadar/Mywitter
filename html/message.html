@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messages MyWitter</title>
+
+    <link rel="stylesheet" href="../css/message.css" />
+    <script
+      src="https://kit.fontawesome.com/cad84b7595.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="left">
+        <div id="left_container">
+          <div id="twitter_icon" style="font-weight: bold; font-size: 24px">
+            <!-- <i class="fa-brands fa-twitter fa-xl" style="color: #cdcece"></i> -->
+            MYwitter
+          </div>
+
+          <div id="navigation_container">
+            <div class="navigations">
+              <a id="single_nav_home" href="../index.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-house-chimney fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Home</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_explore" href="./explore.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-magnifying-glass fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Explore</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_notification" href="./notification.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bell fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Notifications</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_message" href="./message.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-envelope fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Messages</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_list" href="./list.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-solid fa-bars-staggered fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Lists</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_bookmark" href="./bookmarks.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-bookmark fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Bookmarks</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_verified">
+                <div class="nav_icon" id="verify">
+                  <i
+                    id="check"
+                    class="fa-solid fa-square-check fa-xs"
+                    style="color: #000000"
+                  ></i>
+                  <i
+                    class="fa-solid fa-certificate fa-lg"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Verified</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <a id="single_nav_profile" href="../html/profile.html">
+                <div class="nav_icon">
+                  <i
+                    class="fa-regular fa-user fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>Profile</h3>
+                </div>
+              </a>
+            </div>
+            <div class="navigations">
+              <div id="single_nav_more">
+                <div class="nav_icon" id="more">
+                  <i
+                    id="dot_icon"
+                    class="fa-solid fa-ellipsis fa-sm"
+                    style="color: #ffffff"
+                  ></i>
+                  <i
+                    class="fa-regular fa-circle fa-xl"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div class="nav_names">
+                  <h3>More</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tweet_btn">
+            <button>Tweet</button>
+          </div>
+          <div id="dropdown_profile">
+            <div>Add an Existing Account</div>
+            <div>Logout</div>
+          </div>
+          <div id="user_Profile" onclick="toggleProfile()">
+            <div id="user_details">
+              <div id="profile_icon">
+                <!-- <i
+                      class="fa-regular fa-circle-user fa-2xl"
+                      style="color: #ffffff"
+                    ></i> -->
+
+                <img
+                  src="https://e1.pxfuel.com/desktop-wallpaper/311/574/desktop-wallpaper-alone-boy-in-rain-alone-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="profile_name">
+                <p>muser 03</p>
+                <p>@03m_user</p>
+              </div>
+            </div>
+            <div id="dots">
+              <i class="fa-solid fa-ellipsis" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="right-section">
+        <div id="center_section">
+          <nav>
+            <div id="first_nav">
+              <div id="top_nav_left">
+                <h3>Messages</h3>
+              </div>
+              <div id="top_nav_right">
+                <div>
+                  <i class="fa-solid fa-gear fa-sm"></i>
+                </div>
+                <div><i class="fa-regular fa-envelope fa-sm"></i></div>
+              </div>
+            </div>
+            <div id="sec_nav">
+              <div id="message_search">
+                <i id="search" class="fa-solid fa-magnifying-glass fa-sm"></i>
+                <input type="text" placeholder="Search Direct messages" />
+              </div>
+            </div>
+          </nav>
+
+          <div id="message_container">
+            <div class="main_message">
+              <div class="main_dp_container">
+                <div class="main_dp">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfENiZDrOHTpKMDUQKaE693c0u39ABvf8P6NUSBDTcxuVvPvLlP_M8o6AZFeSnS51tdlW3rZXa30eZJomGQfoB9g"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="main_user_msg">
+                <div class="main_user_name">
+                  <h3>Anirudh</h3>
+                  <p>@anirudhOffl . 39m</p>
+                </div>
+                <div class="user_message">Hello</div>
+              </div>
+            </div>
+            <div class="main_message">
+              <div class="main_dp_container">
+                <div class="main_dp">
+                  <img
+                    src="https://cdn.123telugu.com/content/wp-content/uploads/2022/10/Lokesh-Kanagaraj-m.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="main_user_msg">
+                <div class="main_user_name">
+                  <h3>Lokesh Kanagaraj</h3>
+                  <p>@lokeshdir . 3m</p>
+                </div>
+                <div class="user_message">Where are you bro ?</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right_main_last">
+          <div id="single_message-container">
+            <div id="top_single_details">
+              <i class="fa-solid fa-circle-info fa-lg" id="details_icon"></i>
+              <div id="center_div_details">
+                <div id="single_dp">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfENiZDrOHTpKMDUQKaE693c0u39ABvf8P6NUSBDTcxuVvPvLlP_M8o6AZFeSnS51tdlW3rZXa30eZJomGQfoB9g"
+                    alt=""
+                  />
+                </div>
+                <div id="single_name">
+                  <h4>Anirudh</h4>
+                  <p>@anirudhOffl</p>
+                </div>
+                <div id="single_bio">
+                  <p>Vazha en Vazhavai vazhave ❤️</p>
+                  <p>Joined June 2023</p>
+                  <p>Not Followed by anyone You're following</p>
+                </div>
+              </div>
+            </div>
+            <div id="bottom_single_message">
+              <div id="bottom_single_msg">
+                <div id="message_view">
+                  <div id="main_single-msg">
+                    <h3>Hello</h3>
+                    <p>11.47 AM . Seen</p>
+                  </div>
+                </div>
+                <div id="message_box">
+                  <div id="diff_messages">
+                    <i
+                      class="fa-solid fa-image fa-sm"
+                      style="color: #1d9bf0"
+                    ></i>
+                    <i
+                      class="fa-solid fa-film fa-sm"
+                      style="color: #1d9bf0"
+                    ></i>
+                    <i
+                      class="fa-regular fa-face-smile fa-sm"
+                      style="color: #1d9bf0"
+                    ></i>
+                  </div>
+                  <div id="myMsgInput">
+                    <input type="text" placeholder="start a new message" />
+                  </div>
+
+                  <div id="send_msg">
+                    <i
+                      class="fa-regular fa-paper-plane fa-sm"
+                      style="color: #3b7ae8"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
